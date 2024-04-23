@@ -1,0 +1,13 @@
+/* Add your custom styling here */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.matrix-input {
+    margin-bottom: 20px;
+}
+
+/* Customize other styles as needed */

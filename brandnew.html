@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Multiplication Calculator</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Matrix Multiplication Calculator</h1>
+        <div class="matrix-input">
+            <label for="rowsA">Rows (Matrix A):</label>
+            <input type="number" id="rowsA" min="1" placeholder="Rows">
+            <label for="colsA">Columns (Matrix A):</label>
+            <input type="number" id="colsA" min="1" placeholder="Columns">
+            <div id="matrixA"></div>
+        </div>
+        <div class="matrix-input">
+            <label for="rowsB">Rows (Matrix B):</label>
+            <input type="number" id="rowsB" min="1" placeholder="Rows">
+            <label for="colsB">Columns (Matrix B):</label>
+            <input type="number" id="colsB" min="1" placeholder="Columns">
+            <div id="matrixB"></div>
+        </div>
+        <button onclick="calculateResult()" name="setmatrices">set matrices</button>
+        <button id="Calculate">Calculate</button>
+
+        <div id="result"></div>
+    </div>
+    <script src="brandnew.js"></script>
+</body>
+</html>
