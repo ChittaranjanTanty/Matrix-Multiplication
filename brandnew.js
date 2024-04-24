@@ -93,13 +93,6 @@ function calculateResult() {
     createMatrixInput(rowsA, colsA, 'matrixA');
     createMatrixInput(rowsB, colsB, 'matrixB');
 
-   /* const matrixA = getMatrixValues(rowsA, colsA, 'matrixA');
-    const matrixB = getMatrixValues(rowsB, colsB, 'matrixB');
-
-    const result = multiply(matrixA, matrixB);
-
-    // Display the result in the result div
-    displayResult(result); */
 
     // Define cal function inside calculateResult function's scope
     function cal() {
@@ -113,14 +106,6 @@ function calculateResult() {
     // Call the cal function when needed
     cal();
 }
-
-// Display the result in the result div
-
-
-
-
-
-
 
 // Call calculateResult when the "Calculate" button is clicked
 document.querySelector('setmatrices').addEventListener('click', calculateResult);
